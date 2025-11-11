@@ -1,0 +1,953 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Banker</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+    integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="stylesheet" href="responsive.css" />
+</head>
+
+<body>
+  <!-- ----------Desktop Navbar Start---------- -->
+  <header class="navbar">
+    <div class="navbar-container">
+      <!-- --------------Logo------------- -->
+      <div class="navbar-logo">
+        <div>
+          <a href="">Banker<span class="logo-dot">.</span></a>
+        </div>
+      </div>
+
+      <!------------- Hamburger icon ------------>
+      <i id="bar-icon" class="fa-solid fa-bars"></i>
+
+      <!-- --------Main Navigation-------- -->
+      <nav class="navbar-menu">
+        <ul class="navbar-list">
+          <li class="navbar-items">
+            <a href="" class="navbar-link home-link">Home</a>
+          </li>
+
+          <!-- --------DropDown (About Us)----------- -->
+          <li class="navbar-items">
+            <button class="navbar-link">
+              About Us
+              <i class="fa-solid fa-angle-down" style="font-size: 12px"></i>
+            </button>
+            <ul class="about-dropdown">
+              <li><a href="" class="about-dropitem">Team</a></li>
+              <li><a href="" class="about-dropitem">Pricing</a></li>
+              <li><a href="" class="about-dropitem">FAQ</a></li>
+              <li><a href="" class="about-dropitem">Gallery</a></li>
+              <li><a href="" class="about-dropitem">Services</a></li>
+              <li><a href="" class="about-dropitem">Testimonials</a></li>
+
+              <!--------More Links dropdown -------->
+              <li class="morelinks">
+                <a href="" class="about-dropitem">More Links
+                  <i class="fa-solid fa-angle-right" style="font-size: 12px"></i></a>
+                <ul class="morelink-dropdown">
+                  <li><a href="" class="about-dropitem">Menu One</a></li>
+                  <li><a href="" class="about-dropitem">Menu Two</a></li>
+                  <li><a href="" class="about-dropitem">Menu Three</a></li>
+                </ul>
+              </li>
+            </ul>
+          </li>
+
+          <!-- ==========DropDowns Ended============ -->
+          <li class="navbar-items">
+            <a href="" class="navbar-link">Blog</a>
+          </li>
+          <li class="navbar-items">
+            <a href="" class="navbar-link">Contact</a>
+          </li>
+        </ul>
+
+        <!-- -- -----------Social Logo (Desktop)-------- -->
+
+        <div class="">
+          <a href=""><i class="fa-brands li-list fa-facebook-f social-icon"></i></a>
+          <a href=""><i class="fa-brands li-list fa-twitter social-icon"></i></a>
+          <a href=""><i class="fa-brands li-list fa-linkedin-in social-icon"></i></a>
+        </div>
+      </nav>
+    </div>
+  </header>
+
+  <!-- ===============Desktop Navbar Ended=========== -->
+
+  <!-- ---------- Mobile Sidebar Menu ------------- -->
+  <nav class="sidebar">
+    <button class="sidebar-close-btn">
+      <i class="fa-solid fa-xmark"></i>
+    </button>
+
+    <ul class="sidebar-menu">
+      <li class="sidebar-item"><a href="#" class="sidebar-link">Home</a></li>
+      <li class="sidebar-item">
+        <a href="#" class="sidebar-link">About Us
+          <i class="fa-solid fa-angle-down" style="font-size: 12px"></i></a>
+      </li>
+      <li class="sidebar-item"><a href="#" class="sidebar-link">Blog</a></li>
+      <li class="sidebar-item">
+        <a href="#" class="sidebar-link">Contact</a>
+      </li>
+    </ul>
+    <!-- ------------Social Logos (Mobile)-------------- -->
+    <div class="sidebar-socials">
+      <a href="#" class="sidebar-social-link"><i class="fa-brands fa-facebook-f"></i></a>
+      <a href="#" class="sidebar-social-link"><i class="fa-brands fa-twitter"></i></a>
+      <a href="#" class="sidebar-social-link"><i class="fa-brands fa-linkedin-in"></i></a>
+    </div>
+  </nav>
+
+  <!-- ============Mobile Navbar Ended========== -->
+
+  <!----------- Overlay ------------->
+  <div class="sidebar-overlay"></div>
+
+  <!-- ------------------Hero Section---------------- -->
+
+  <section class="hero">
+    <div class="inner-skin-div-sec">
+      <!-- -------------Slider Container------------- -->
+      <div class="slider-container">
+        <div class="slider">
+          <div class="slide">
+            <h2>BANKING SOLUTIONS</h2>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+              Provident cupiditate suscipit, magnam libero velit esse sapiente
+              officia inventore!
+            </p>
+          </div>
+          <div class="slide">
+            <h2>FINANCING SOLUTIONS</h2>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+              Provident cupiditate suscipit, magnam libero velit esse sapiente
+              officia inventore!
+            </p>
+          </div>
+          <div class="slide">
+            <h2>SAVING ACCOUNTS</h2>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+              Provident cupiditate suscipit, magnam libero velit esse sapiente
+              officia inventore!
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="dots">
+        <span class="dot active"></span>
+        <span class="dot"></span>
+        <span class="dot"></span>
+      </div>
+    </div>
+    <!-- ----------------------Mouse Scroll Indicator----------------- -->
+
+    <a href="#next-section" class="scroll-indicator">
+      <div class="mouse">
+        <div class="wheel"></div>
+      </div>
+    </a>
+  </section>
+
+  <!-- ===================Hero Section Ended================= -->
+
+  <!-- --------------- Features & Amortization Section -------------- -->
+
+  <section class="features-amortization" id="next-section">
+    <div data-aos="fade-up" class="features-amortization-container">
+      <!-- ----------Features SEction---------- -->
+      <div class="features">
+        <div class="features-item">
+          <img src="./assets/imgi_1_001-wallet.svg" alt="Wallet icon" />
+          <h3>Money Savings</h3>
+          <p>
+            A small river named Duden flows by their place and supplies it
+            with the necessary regelialia.
+          </p>
+        </div>
+
+        <div class="features-item">
+          <img src="./assets/imgi_2_004-cart.svg" alt="Shopping cart icon" />
+          <h3>Online Shoppings</h3>
+          <p>
+            A small river named Duden flows by their place and supplies it
+            with the necessary regelialia.
+          </p>
+        </div>
+
+        <div class="features-item">
+          <img src="./assets/imgi_3_006-credit-card.svg" alt="Credit card icon" />
+          <h3>Credit / Debit Cards</h3>
+          <p>
+            A small river named Duden flows by their place and supplies it
+            with the necessary regelialia.
+          </p>
+        </div>
+      </div>
+
+      <!-- ---------- Amortization Section ------------>
+      <div data-aos="fade-up" class="amortization">
+        <div class="amortization-image">
+          <img src="./assets/imgi_14_img_1.jpg" alt="Smiling man holding a calculator" />
+        </div>
+        <div class="amortization-content">
+          <h3>Amortization Computation</h3>
+          <p>
+            A small river named Duden flows by their place and supplies it
+            with the necessary regelialia.
+          </p>
+
+          <ul class="benefits">
+            <li>
+              <i class="fa-solid fa-check"></i> Officia quaerat eaque neque
+            </li>
+            <li>
+              <i class="fa-solid fa-check"></i> Lorem ipsum dolor sit amet
+            </li>
+            <li>
+              <i class="fa-solid fa-check"></i> Consectetur adipisicing elit
+            </li>
+          </ul>
+
+          <form class="email-form">
+            <input type="email" placeholder="Enter your email" aria-label="Email address" />
+            <button type="submit">Submit Email</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============Features & Amortization Section Ended=========== -->
+
+  <!-------------------- About Section------------------ -->
+
+  <section  class="about">
+    <div  class="about-container">
+      <div  data-aos="fade-up"class="about-header">
+        <h2>About Us</h2>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus
+          minima neque tempora reiciendis.
+        </p>
+      </div>
+
+      <div class="about-content">
+        <div  data-aos="fade-up"class="about-image">
+          <img src="./assets/imgi_5_hero_1.jpg" alt="Business woman using laptop" />
+        </div>
+
+        <div data-aos="fade-up" class="about-text">
+          <h3>We Solve Your Financial Problem</h3>
+          <p>
+            Far far away, behind the word mountains, far from the countries
+            Vokalia and Consonantia, there live the blind texts. Separated
+            they live in Bookmarksgrove right at the coast of the Semantics, a
+            large language ocean.
+          </p>
+          <p>
+            A small river named Duden flows by their place and supplies it
+            with the necessary regelialia. It is a paradisematic country, in
+            which roasted parts of sentences fly into your mouth.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========================About Us Section Ended=================== -->
+
+  <!-- -------------------------Meet Team---------------------- -->
+
+  <section class="team">
+    <div class="team-container">
+      <div data-aos="fade-up" class="team-header">
+        <h2>Meet Team</h2>
+        <p>
+          A small river named Duden flows by their place and supplies it with
+          the necessary regelialia.
+        </p>
+      </div>
+
+      <!-- -----------------Team--------------- -->
+      <div class="team-grid">
+        <!-- ----------Team Member 1------- -->
+        <div data-aos="fade-up" class="team-member">
+          <img src="./assets/imgi_6_person_5.jpg" alt="Kaiara Spencer" />
+          <h4>Kaiara Spencer</h4>
+          <p>Finance Manager</p>
+        </div>
+
+        <!--------- Team Member 2 ---------->
+        <div data-aos="fade-up" class="team-member">
+          <img src="./assets/imgi_7_person_6.jpg" alt="Dave Simpson" />
+          <h4>Dave Simpson</h4>
+          <p>Marketing Manager</p>
+        </div>
+
+        <!----------- Team Member 3 ------------>
+        <div data-aos="fade-up" class="team-member">
+          <img src="./assets/imgi_8_person_7.jpg" alt="Ben Thompson" />
+          <h4>Ben Thompson</h4>
+          <p>Accountant</p>
+        </div>
+
+        <!------------- Team Member 4 --------------->
+        <div data-aos="fade-up" class="team-member">
+          <img src="./assets/imgi_9_person_8.jpg" alt="Kyla Stewart" />
+          <h4>Kyla Stewart</h4>
+          <p>Accountant</p>
+        </div>
+
+        <!----------- Team Member 5 ------------>
+        <div data-aos="fade-up" class="team-member">
+          <img src="./assets/imgi_10_person_1.jpg" alt="Kaiara Spencer" />
+          <h4>Kaiara Spencer</h4>
+          <p>Accountant</p>
+        </div>
+
+        <!----------- Team Member 6 ----------->
+        <div data-aos="fade-up" class="team-member">
+          <img src="./assets/imgi_11_person_2.jpg" alt="Dave Simpson" />
+          <h4>Dave Simpson</h4>
+          <p>Bank Teller</p>
+        </div>
+
+        <!------------ Team Member 7 -------------->
+        <div data-aos="fade-up" class="team-member">
+          <img src="./assets/imgi_12_person_3.jpg" alt="Ben Thompson" />
+          <h4>Ben Thompson</h4>
+          <p>Bank Teller</p>
+        </div>
+
+        <!------------- Team Member 8 -------------->
+        <div data-aos="fade-up" class="team-member">
+          <img src="./assets/imgi_13_person_4.jpg" alt="Chris Stewart" />
+          <h4>Chris Stewart</h4>
+          <p>Bank Teller</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==============Meet team Section Ended========= -->
+
+  <!-- -----------------Gallery Section --------------- -->
+
+  <section class="gallery">
+    <div class="gallery-container">
+      <div class="gallery-header">
+        <h3 data-aos="fade-up">Gallery</h3>
+        <div data-aos="fade-up" class="gallery-buttons">
+          <button class="button-all">All</button>
+          <button>Events</button>
+          <button>Party</button>
+          <button>Holidays</button>
+        </div>
+      </div>
+
+      <div class="gallery-grid">
+        <img data-aos="fade-up" src="./assets/imgi_14_img_1.jpg" alt="Event" data-category="events" />
+        <img data-aos="fade-up" src="./assets/imgi_15_img_2.jpg" alt="Party" data-category="party" />
+        <img data-aos="fade-up" src="./assets/imgi_16_img_3.jpg" alt="Holiday" data-category="holidays" />
+        <img data-aos="fade-up" src="./assets/imgi_17_img_4.jpg" alt="Event" data-category="events" />
+        <img data-aos="fade-up" src="./assets/imgi_18_img_5.jpg" alt="Party" data-category="party" />
+        <img data-aos="fade-up" src="./assets/imgi_14_img_1.jpg" alt="Holiday" data-category="holidays" />
+        <img data-aos="fade-up" src="./assets/imgi_15_img_2.jpg" alt="Event" data-category="events" />
+        <img data-aos="fade-up" src="./assets/imgi_16_img_3.jpg" alt="Party" data-category="party" />
+        <img data-aos="fade-up" src="./assets/imgi_17_img_4.jpg" alt="Holiday" data-category="holidays" />
+        <img data-aos="fade-up" src="./assets/imgi_18_img_5.jpg" alt="Event" data-category="events" />
+        <img data-aos="fade-up" src="./assets/imgi_14_img_1.jpg" alt="Party" data-category="party" />
+        <img data-aos="fade-up" src="./assets/imgi_15_img_2.jpg" alt="Holiday" data-category="holidays" />
+      </div>
+    </div>
+  </section>
+  <!-- =================Gallery Section Ended========= -->
+
+  <!-- ----------------How It Works Section--------- -->
+
+  <section class="work">
+    <div class="work-container">
+      <div data-aos="fade-up" class="work-header">
+        <h2>How It Works</h2>
+        <p>
+          A small river named Duden flows by their place and supplies it with
+          the necessary regelialia.
+        </p>
+      </div>
+
+      <!-- slider -->
+      <div  data-aos="fade-up" class="work-content">
+        <div class="but">
+          <div class="button_sliders_controll">
+            <i class="fa-solid fa-arrow-left"></i>
+          </div>
+          <div class="button_sliders_controll">
+            <i class="fa-solid fa-arrow-right"></i>
+          </div>
+        </div>
+
+        <div class="img_slider_parent">
+          <div class="slider_img_roll">
+            <img class="slidesimg" src="./assets/imgi_21_slide_1.jpg" alt="" />
+            <img class="slidesimg" src="./assets/imgi_19_slide_2.jpg" alt="" />
+            <img class="slidesimg" src="./assets/imgi_20_slide_3.jpg" alt="" />
+          </div>
+        </div>
+
+        <div class="text_slider_parent">
+          <div class="slider_img_roll">
+            <div class="slidesimg">
+              <h3><span>01.</span> Online Applications</h3>
+              <p>
+                A small river named Duden flows by their place and supplies it
+                with the necessary regelialia. It is a paradisematic country,
+                in which roasted parts of sentences fly into your mouth.
+              </p>
+              <a href="#" class="learn-btn">Learn More</a>
+            </div>
+            <div class="slidesimg">
+              <h3><span>02.</span> Get an approval</h3>
+              <p>
+                A small river named Duden flows by their place and supplies it
+                with the necessary regelialia. It is a paradisematic country,
+                in which roasted parts of sentences fly into your mouth.
+              </p>
+              <a href="#" class="learn-btn">Learn More</a>
+            </div>
+            <div class="slidesimg">
+              <h3><span>03.</span> Card delivery</h3>
+              <p>
+                A small river named Duden flows by their place and supplies it
+                with the necessary regelialia. It is a paradisematic country,
+                in which roasted parts of sentences fly into your mouth.
+              </p>
+              <a href="#" class="learn-btn">Learn More</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- =================How it Works Section Ended========= -->
+
+  <!-- --------------Our Services Section------------- -->
+
+  <section class="services-section">
+    <div class="services-container">
+
+      <div data-aos="fade-up" class="services-header">
+        <h2>Our Services</h2>
+      </div>
+
+      <div class="services-grid">
+
+        <div data-aos="fade-up" class="services-box">
+          <img src="./assets/imgi_1_001-wallet.svg" alt="Business Consulting" />
+          <h3>Business Consulting</h3>
+          <p>
+            A small river named Duden flows by their place and supplies it
+            with the necessary regelialia.
+          </p>
+          <a href="" class="learn-more">Learn More</a>
+        </div>
+
+        <div data-aos="fade-up" class="services-box">
+          <img src="./assets/imgi_3_006-credit-card.svg" alt="Credit Card" />
+          <h3>Credit Card</h3>
+          <p>
+            A small river named Duden flows by their place and supplies it
+            with the necessary regelialia.
+          </p>
+          <a href="" class="learn-more">Learn More</a>
+        </div>
+
+        <div data-aos="fade-up" class="services-box">
+          <img src="./assets/imgi_22_002-rich.svg" alt="Income Monitoring" />
+          <h3>Income Monitoring</h3>
+          <p>
+            A small river named Duden flows by their place and supplies it
+            with the necessary regelialia.
+          </p>
+          <a href="" class="learn-more">Learn More</a>
+        </div>
+
+        <div data-aos="fade-up" class="services-box">
+          <img src="./assets/imgi_23_003-notes.svg" alt="Insurance Consulting" />
+          <h3>Insurance Consulting</h3>
+          <p>
+            A small river named Duden flows by their place and supplies it
+            with the necessary regelialia.
+          </p>
+          <a href="" class="learn-more">Learn More</a>
+        </div>
+
+        <div  data-aos="fade-up" class="services-box">
+          <img src="./assets/imgi_2_004-cart.svg" alt="Financial Investment" />
+          <h3>Financial Investment</h3>
+          <p>
+            A small river named Duden flows by their place and supplies it
+            with the necessary regelialia.
+          </p>
+          <a href="" class="learn-more">Learn More</a>
+        </div>
+
+        <div data-aos="fade-up" class="services-box">
+          <img src="./assets/imgi_24_005-megaphone.svg" alt="Financial Management" />
+          <h3>Financial Management</h3>
+          <p>
+            A small river named Duden flows by their place and supplies it
+            with the necessary regelialia.
+          </p>
+          <a href="" class="learn-more">Learn More</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- =================Our Services Section Ended============ -->
+
+  <!-- ----------------------Happy Customers Slider--------------- -->
+  <section class="happy-customers-slider">
+    <div data-aos="fade-up" class="happy-customers-slider-container">
+      <h2>Happy Customers</h2>
+
+      <div class="swiper mySwiper">
+        <div class="swiper-wrapper">
+
+          <div class="swiper-slide">
+            <p class="testimonial">
+              “Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the
+              blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language
+              ocean.”
+            </p>
+            <div class="customer">
+              <img src="./assets/imgi_12_person_3.jpg" alt="John Smith">
+              <h4>John Smith</h4>
+            </div>
+          </div>
+
+          <div class="swiper-slide">
+            <p class="testimonial">
+              “A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a
+              paradisematic country, in which roasted parts of sentences fly into your mouth.”
+            </p>
+            <div class="customer">
+              <img src="./assets/imgi_11_person_2.jpg" alt="Christine Aguilar">
+              <h4>Christine Aguilar</h4>
+            </div>
+          </div>
+
+          <div class="swiper-slide">
+            <p class="testimonial">
+              “Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic life
+              One day however a small line of blind text by the name of Lorem Ipsum decided to leave for the far World
+              of Grammar.”
+            </p>
+            <div class="customer">
+              <img src="./assets/imgi_13_person_4.jpg" alt="Robert Spears">
+              <h4>Robert Spears</h4>
+            </div>
+          </div>
+
+        </div>
+
+        <div class="swiper-pagination"></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Swiper JS -->
+  <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+  <!-- ===============Happy Customer Slider Ended============= -->
+
+  <!-- ------------------Pricing---------------- -->
+
+  <section class="pricing">
+    <div class="pricing-container">
+      <div data-aos="fade-up" class="pricing-header">
+        <h2>Pricing</h2>
+      </div>
+
+      <div data-aos="fade-up" class="pricing-cards">
+
+
+        <div class="pricing-card">
+          <h3 class="plan-title">Basic</h3>
+          <p class="plan-price">$47<span>/year</span></p>
+          <ul class="plan-features">
+            <li>Officia quaerat eaque neque</li>
+            <li>Possimus aut consequuntur incidunt</li>
+            <li class="disabled">Lorem ipsum dolor sit amet</li>
+            <li class="disabled">Consectetur adipisicing elit</li>
+            <li class="disabled">Dolorum esse odio quas architecto sint</li>
+          </ul>
+          <button class="btn">Buy Now</button>
+        </div>
+
+
+        <div class="pricing-card featured">
+          <h3 class="plan-title">Premium</h3>
+          <p class="plan-price">$200 <span>/ year</span></p>
+          <ul class="plan-features">
+            <li>Officia quaerat eaque neque</li>
+            <li>Possimus aut consequuntur incidunt</li>
+            <li>Lorem ipsum dolor sit amet</li>
+            <li>Consectetur adipisicing elit</li>
+            <li class="disabled">Dolorum esse odio quas architecto sint</li>
+          </ul>
+          <button class="btn highlight">Buy Now</button>
+        </div>
+
+
+        <div class="pricing-card">
+          <h3 class="plan-title">Professional</h3>
+          <p class="plan-price">$750 <span>/ year</span></p>
+          <ul class="plan-features">
+            <li>Officia quaerat eaque neque</li>
+            <li>Possimus aut consequuntur incidunt</li>
+            <li>Lorem ipsum dolor sit amet</li>
+            <li>Consectetur adipisicing elit</li>
+            <li>Dolorum esse odio quas architecto sint</li>
+          </ul>
+          <button class="btn">Buy Now</button>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= Pricing Ended=============== -->
+
+  <!-- --------------------------FAQS--------------------- -->
+
+  <section class="faq-section">
+    <div class="faq-container">
+      <div  data-aos="fade-up" class="faq-header">
+        <h2>Frequently Ask Questions</h2>
+      </div>
+
+      <div class="faq-content">
+        <div data-aos="fade-up" class="faq-item">
+          <h3>Can I accept both Paypal and Stripe?</h3>
+          <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the
+            blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language
+            ocean.</p>
+        </div>
+
+        <div data-aos="fade-up" class="faq-item">
+          <h3>Where are you from?</h3>
+          <p>Voluptatum nobis obcaecati perferendis dolor totam unde dolores quod maxime corporis officia et. Distinctio
+            assumenda minima maiores.</p>
+        </div>
+
+        <div data-aos="fade-up" class="faq-item">
+          <h3>What available is refund period?</h3>
+          <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the
+            blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language
+            ocean.</p>
+        </div>
+
+        <div data-aos="fade-up" class="faq-item">
+          <h3>What is your opening time?</h3>
+          <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the
+            blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language
+            ocean.</p>
+        </div>
+
+        <div data-aos="fade-up" class="faq-item">
+          <h3>Can I accept both Paypal and Stripe?</h3>
+          <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the
+            blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language
+            ocean.</p>
+        </div>
+
+        <div data-aos="fade-up" class="faq-item">
+          <h3>What available is refund period?</h3>
+          <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the
+            blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language
+            ocean.</p>
+        </div>
+
+        <div  data-aos="fade-up" class="faq-item">
+          <h3>Can I accept both Paypal and Stripe?</h3>
+          <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the
+            blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language
+            ocean.</p>
+        </div>
+
+        <div data-aos="fade-up" class="faq-item">
+          <h3>What available is refund period?</h3>
+          <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the
+            blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language
+            ocean.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ====================FAQS Ended================ -->
+
+  <!-- --------------------No Name Section------------ -->
+
+  <section class="bank-section">
+    <div data-aos="fade-up" class="no-name-container">
+
+      <div class="bank-row">
+        <div class="bank-image">
+          <img src="./assets/imgi_5_hero_1.jpg" alt="Business Woman">
+        </div>
+
+
+        <div class="bank-content">
+
+          <div class="bank-item">
+            <div class="bank-icon">
+              <i class="fa-solid fa-landmark"></i>
+            </div>
+            <div class="bank-text">
+              <h3>Bank Loan</h3>
+              <p>
+                Far far away, behind the word mountains, far from the countries
+                Vokalia and Consonantia, there live the blind texts.
+              </p>
+              <a href="#" class="learn-more">Learn More</a>
+            </div>
+          </div>
+
+
+          <div class="bank-item">
+            <div class="bank-icon">
+              <i class="fa-solid fa-comments"></i>
+            </div>
+            <div class="bank-text">
+              <h3>Banking Consulation</h3>
+              <p>
+                Separated they live in Bookmarksgrove right at the coast of the
+                Semantics, a large language ocean.
+              </p>
+              <a href="#" class="learn-more">Learn More</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ====================No Name Section Ended============= -->
+
+  <!-- ----------------Blog Section-------------- -->
+
+  <section class="blog-section">
+    <div class="blog-container">
+      <h2>Our Blog</h2>
+
+      <div class="blogs">
+
+
+        <div class="blog-item">
+          <img src="./assets/imgi_14_img_1.jpg" alt="Blog 1">
+          <h3>A Basic Guide to Starting a Franchise in the Philippines</h3>
+          <p class="blog-meta">
+            <span>Ham Brook</span>
+            <span>•</span>
+            <span>Jan 18, 2019</span>
+            <span>•</span>
+            <a href="#" class="category-btn">News</a>
+          </p>
+          <p class="blog-desc">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            Natus eligendi nobis ea maiores sapiente veritatis reprehenderit
+            suscipit quaerat rerum voluptatibus a eius.
+          </p>
+          <a href="#" class="read-more">Continue Reading...</a>
+        </div>
+
+
+        <div class="blog-item">
+          <img src="./assets/imgi_17_img_4.jpg" alt="Blog 2">
+          <h3>A Basic Guide to Starting a Franchise in the Philippines</h3>
+          <p class="blog-meta">
+            <span>James Phelps</span>
+            <span>•</span>
+            <span>Jan 18, 2019</span>
+            <span>•</span>
+            <a href="#" class="category-btn">News</a>
+          </p>
+          <p class="blog-desc">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            Natus eligendi nobis ea maiores sapiente veritatis reprehenderit
+            suscipit quaerat rerum voluptatibus a eius.
+          </p>
+          <a href="#" class="read-more">Continue Reading...</a>
+        </div>
+
+
+        <div class="blog-item">
+          <img src="./assets/imgi_16_img_3.jpg" alt="Blog 3">
+          <h3>A Basic Guide to Starting a Franchise in the Philippines</h3>
+          <p class="blog-meta">
+            <span>James Phelps</span>
+            <span>•</span>
+            <span>Jan 18, 2019</span>
+            <span>•</span>
+            <a href="#" class="category-btn">News</a>
+          </p>
+          <p class="blog-desc">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            Natus eligendi nobis ea maiores sapiente veritatis reprehenderit
+            suscipit quaerat rerum voluptatibus a eius.
+          </p>
+          <a href="#" class="read-more">Continue Reading...</a>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ====================Blog Ended============ -->
+
+  <!-- --------------Contact Us Section------------ -->
+
+  <section class="contact-section">
+    <div class="contact-us-container">
+
+      <h2>Contact Us</h2>
+
+      <div class="contact-info">
+        <div class="info-item">
+          <i class="icon-location"></i>
+          <p>203 Fake St. Mountain View, San Francisco,<br>California, USA</p>
+        </div>
+        <div class="info-item">
+          <i class="icon-phone"></i>
+          <p id="ph-no-email">+1 232 3235 324</p>
+        </div>
+        <div class="info-item">
+          <i class="icon-email"></i>
+          <p id="ph-no-email">youremail@domain.com</p>
+        </div>
+      </div>
+
+      <div class="contact-form">
+        <h3>Contact Form</h3>
+        <form>
+          <div class="row">
+            <div class="form-group">
+              <label>First Name</label>
+              <input type="text" placeholder="">
+            </div>
+            <div class="form-group">
+              <label>Last Name</label>
+              <input type="text" placeholder="">
+            </div>
+          </div>
+
+          <div class="form-group">
+            <label>Email</label>
+            <input type="email" placeholder="">
+          </div>
+
+          <div class="form-group">
+            <label>Subject</label>
+            <input type="text" placeholder="">
+          </div>
+
+          <div class="form-group">
+            <label>Message</label>
+            <textarea placeholder="Write your notes or questions here..."></textarea>
+          </div>
+
+          <button type="submit" class="btn">Send Message</button>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===============Contact Us Ended================ -->
+
+  <!-- ----------------Footer-------------- -->
+
+  <section class="footer">
+    <div class="footer-container">
+      <div class="footer-about">
+        <h3>About Us</h3>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque facere laudantium
+          magnam voluptatem autem. Amet aliquid nesciunt veritatis aliquam.
+        </p>
+      </div>
+
+      <div class="footer-links">
+        <h3>Quick Links</h3>
+        <ul>
+          <li><a href="#">Terms</a></li>
+          <li><a href="#">Policy</a></li>
+          <li><a href="#">About Us</a></li>
+          <li><a href="#">Services</a></li>
+          <li><a href="#">Testimonials</a></li>
+          <li><a href="#">Contact Us</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-follow">
+        <h3>Follow Us</h3>
+        <div class="social-icons">
+          <a href="#"><i class="fab fa-facebook-f"></i></a>
+          <a href="#"><i class="fab fa-twitter"></i></a>
+          <a href="#"><i class="fab fa-instagram"></i></a>
+          <a href="#"><i class="fab fa-linkedin-in"></i></a>
+        </div>
+      </div>
+
+      <div class="footer-newsletter">
+        <h3>Subscribe Newsletter</h3>
+        <form>
+          <input type="email" placeholder="Enter Email" required />
+          <button type="submit">Send</button>
+        </form>
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <p>
+        Copyright ©2025 All rights reserved |
+        This template is made with <span>❤️</span> by
+        <a href="#">Colorlib</a>
+      </p>
+    </div>
+  </section>
+
+  <!-- ================Footer Ended=========== -->
+
+
+
+  <script src="script.js"></script>
+
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+  <script>
+  AOS.init({
+    duration: 1000,
+    once: true,
+  });
+</script>
+
+</body>
+
+</html>

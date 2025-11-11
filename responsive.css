@@ -1,0 +1,1347 @@
+/* =========================================================
+   RESPONSIVE STYLES BY BREAKPOINT
+   ----------------------------------------------------------
+   1200px  → Large devices (Desktops)
+   992px   → Medium devices (Laptops/Tablets landscape)
+   768px   → Small devices (Tablets portrait)
+   576px   → Extra small devices (Mobiles)
+========================================================= */
+
+/* =========================================================
+   MAX-WIDTH: 1200px
+========================================================= */
+@media (max-width: 1200px) {
+  /* -----------------------Navbar--------------- */
+  #bar-icon {
+    display: block;
+  }
+  .navbar-menu {
+    display: none;
+  }
+
+  /* -----------------------Features---------------- */
+  .features-item {
+    /* border: 1px solid black; */
+    width: 320px;
+  }
+  .features-item img {
+    width: 75px;
+  }
+  .features-item p {
+    /* border: 1px solid black; */
+    width: 280px;
+  }
+
+  /*------------------- Amortization----------------- */
+  .amortization {
+    /* border: 1px solid rgb(255, 0, 0); */
+    display: flex;
+    align-items: center;
+    gap: 125px;
+  }
+  .amortization-image img {
+    width: 439px;
+    padding-bottom: 30px;
+  }
+  .amortization-content {
+    /* border: 1px solid black; */
+    width: 360px;
+  }
+
+  /* /--------------------About Us----------------------- */
+  .about-header p {
+    /* border: 1px solid black; */
+    width: 550px;
+  }
+
+  .about-content {
+    /* border: 1px solid rgb(255, 0, 0); */
+    display: flex;
+    align-items: center;
+    gap: 130px;
+  }
+  .about-image img {
+    width: 439px;
+    padding-bottom: 80px;
+  }
+  .about-text {
+    /* border: 1px solid black; */
+    width: 352px;
+  }
+  .about-image::before {
+    bottom: -20px;
+    right: -110px;
+    width: 290px;
+    height: 290px;
+  }
+
+  /* -----------------------Meet Team---------------- */
+  .team-header p {
+    width: 580px;
+  }
+
+  .team-grid {
+    /* border:  2px solid black; */
+    width: 960px;
+    margin: auto;
+  }
+
+  .team-member img {
+    width: 210px;
+  }
+
+  /* -------------------------Gallery------------------- */
+
+  .gallery img {
+    width: 300px;
+  }
+
+  /* ----------------------Work Section----------- */
+
+  .work-container {
+    /* border: 1px solid black; */
+    width: 940px;
+  }
+
+  .work-header p {
+    /* border: 1px solid red; */
+    width: 500px;
+  }
+
+  .img_slider_parent {
+    /* border: 1px solid red; */
+    width: 460px;
+    height: 300px;
+  }
+  .but {
+    bottom: 40%;
+    left: 41%;
+  }
+
+  .text_slider_parent {
+    /* border: 1px solid peru; */
+    width: 400px;
+  }
+
+  .slidesimg h3 {
+    /* border: 1px solid green; */
+    padding-top: 15px;
+    width: 350px;
+  }
+
+  .slidesimg p {
+    /* border: 1px solid black; */
+    width: 380px;
+  }
+
+  /* ---------------------Our Services------------- */
+
+  .services-grid {
+    /* border: 1px solid rgb(255, 0, 0); */
+    width: 995px;
+    padding-left: 30px;
+    margin: auto;
+  }
+
+  .services-box img {
+    /* border:  1px solid black; */
+    width: 75px;
+  }
+
+  .services-box p {
+    /* border: 1px solid black; */
+    width: 260px;
+  }
+
+  /* -----------------Happy Customers---------- */
+
+  .happy-customers-slider h2 {
+    font-size: 36px;
+  }
+
+  .happy-customers-slider-container {
+    /* border: 1px solid red; */
+    width: 990px;
+  }
+
+  /* ---------------Pricing-------------- */
+
+  .pricing-card {
+    /* border: 1px solid black; */
+    width: 290px;
+  }
+  .plan-features {
+    /* border: 1px solid red; */
+    width: 210px;
+  }
+
+  /* -----------FAQs---------- */
+
+  .faq-content {
+    /* border: 1px solid black; */
+    width: 860px;
+    margin: auto;
+  }
+
+  .faq-item p {
+    /* border: 1px solid black; */
+    width: 420px;
+  }
+
+  /* ---------------No Name------------ */
+
+  .no-name-container {
+    /* border: 1px solid red; */
+    width: 990px;
+  }
+
+  .bank-row {
+    /* border: 1px solid black; */
+    gap: 100px;
+    padding-left: 27px;
+  }
+
+  .bank-image img {
+    width: 489px;
+    height: 310px;
+    z-index: 5;
+  }
+  .bank-item {
+    margin-top: 0px;
+  }
+
+  .bank-text p {
+    width: 280px;
+  }
+
+  .bank-image::before {
+    bottom: -30px;
+    right: -80px;
+  }
+
+  /* -----------------Blog----------- */
+  .blog-container {
+    /* border: 1px solid black; */
+    width: 990px;
+  }
+
+  .blogs {
+    /* border: 1px solid black; */
+    gap: 2px;
+  }
+
+  .blog-item {
+    /* border: 1px solid black; */
+    width: 280px;
+  }
+
+  .blog-section h2 {
+    font-size: 36px;
+  }
+   .blog-item h3 {
+    font-size: 18px;
+    width: 280px;
+  }
+
+  .blog-desc {
+    font-size: 15px;
+    width: 260px;
+  }
+
+  /* ----------------Contact Us----------- */
+
+   .contact-us-container {
+    /* border: 1px solid black; */
+    width: 990px;
+  }
+
+  .contact-info {
+    /* border: 1px solid black; */
+    width: 950px;
+    gap: 100px;
+    margin-left: 30px;
+    padding-left: 20;
+  }
+
+  .contact-us-container h2 {
+    font-size: 36px;
+  }
+
+  .info-item p {
+    font-size: 16px;
+  }
+
+  .contact-form {
+    /* border: 1px solid black; */
+    width: 95%;
+    padding: 35px;
+  }
+}
+
+/* =========================================================
+   MAX-WIDTH: 992px
+========================================================= */
+@media (max-width: 992px) {
+  /* ----------------------Slider------------------- */
+  .slide h2 {
+    font-size: 2rem;
+  }
+  .slide p {
+    font-size: 1.4rem;
+  }
+  .slider-container {
+    padding: 60px 15px;
+  }
+
+  /* -------------------------Features----------------- */
+  .features-item {
+    /* border: 1px solid black; */
+    width: 242px;
+  }
+  .features-item img {
+    width: 55px;
+  }
+  .features-item p {
+    /* border: 1px solid black; */
+    width: 202px;
+  }
+
+  /* ------------------------Amortization------------------ */
+  .amortization {
+    /* border: 1px solid rgb(255, 0, 0); */
+    flex-direction: column;
+  }
+  .amortization-image img {
+    width: 700px;
+    padding-bottom: 0;
+  }
+  .amortization-image::before {
+    display: none;
+  }
+  .amortization-content {
+    /* border: 1px solid black; */
+    width: max-content;
+    align-self: flex-start;
+  }
+  .amortization-content p {
+    font-size: 1.07rem;
+  }
+  .email-form {
+    /* border: 1px solid black; */
+    width: max-content;
+  }
+  .email-form input {
+    width: 534px;
+  }
+  .email-form button {
+    padding: 0 33px;
+  }
+
+  /* --------------------About Us----------------- */
+  .about-header p {
+    /* border: 1px solid black; */
+    width: 400px;
+  }
+
+  .about-content {
+    /* border: 1px solid rgb(255, 0, 0); */
+    flex-direction: column;
+  }
+
+  .about-image img {
+    width: 700px;
+    padding-bottom: 0;
+  }
+
+  .about-image::before {
+    display: none;
+  }
+
+  .about-text {
+    /* border: 1px solid black; */
+    width: 650px;
+    align-self: flex-start;
+  }
+
+  /* -----------------------Meet Team---------------- */
+  .team-header p {
+    width: 430px;
+  }
+
+  .team-grid {
+    /* border:  2px solid black; */
+    width: 720px;
+    margin: auto;
+  }
+
+  .team-member img {
+    width: 330px;
+  }
+
+  /* -------------------------Gallery------------------- */
+
+  .gallery-container {
+    /* border: 1px solid rgb(254, 0, 0); */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .gallery-grid {
+    /* border: 2px solid black; */
+    width: 750px;
+  }
+
+  .gallery img {
+    width: 210px;
+  }
+
+  /* ----------------------Work Section----------- */
+
+  .work-container {
+    /* border: 1px solid black; */
+    width: 750px;
+  }
+
+  .work-header p {
+    /* border: 1px solid red; */
+    width: 380px;
+  }
+
+  .work-content {
+    /* border: 1px solid black; */
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+  }
+
+  .img_slider_parent {
+    /* border: 1px solid red; */
+    width: 710px;
+    height: 460px;
+  }
+
+  .slider_img_roll img {
+    height: 460px;
+  }
+
+  .but {
+    bottom: 40%;
+    left: 41%;
+  }
+
+  .text_slider_parent {
+    /* border: 1px solid peru; */
+    width: 705px;
+  }
+
+  .slidesimg h3 {
+    /* border: 1px solid green; */
+    padding-top: 15px;
+    width: 550px;
+    font-size: 2rem;
+  }
+
+  .slidesimg p {
+    /* border: 1px solid black; */
+    width: 690px;
+  }
+
+  /* ---------------------Our Services------------- */
+
+  .services-grid {
+    /* border: 1px solid rgb(255, 0, 0); */
+    width: 786px;
+    padding-left: 60px;
+    margin: auto;
+    gap: 40px 10px;
+  }
+
+  .services-box img {
+    /* border:  1px solid black; */
+    width: 75px;
+  }
+
+  .services-box p {
+    /* border: 1px solid black; */
+    width: 320px;
+  }
+  /* -----------------Happy Customers---------- */
+
+  .happy-customers-slider h2 {
+    font-size: 36px;
+  }
+
+  .happy-customers-slider-container {
+    /* border: 1px solid red; */
+    width: 766px;
+  }
+  .testimonial {
+    font-size: 20px;
+    padding: 0 0;
+  }
+
+  /* ---------------Pricing-------------- */
+
+  .pricing-card {
+    /* border: 1px solid black; */
+    width: 330px;
+  }
+  .plan-features {
+    /* border: 1px solid red; */
+    width: 270px;
+  }
+
+  /* -----------FAQs---------- */
+
+  .faq-content {
+    /* border: 1px solid black; */
+    width: 700px;
+    margin: auto;
+  }
+
+  .faq-item p {
+    /* border: 1px solid black; */
+    font-size: 17px;
+    width: 680px;
+  }
+
+  /* ---------------No Name------------ */
+
+  .no-name-container {
+    /* border: 1px solid red; */
+    width: 766px;
+  }
+  
+  .bank-row {
+    /* border: 1px solid black; */
+    flex-direction: column;
+    gap: 60px;
+    padding-left: 0;
+    margin: auto;
+  }
+ 
+  .bank-image img {
+    width: 710px;
+    height: 510px;
+    z-index: 5;
+  }
+  .bank-item {
+    margin-top: 0px;
+    /* border: 1px solid red; */
+  }
+
+  .bank-text p {
+    width: 580px;
+  }
+
+  .bank-image::before {
+    display: none;
+  }
+
+  /* -----------------Blog----------- */
+  .blog-container {
+    /* border: 1px solid black; */
+    width: 760px;
+  }
+  
+  .blogs {
+    /* border: 1px solid black; */
+    gap: 10px;
+    flex-wrap: wrap;
+    width: 690px;
+    margin: auto;
+  }
+
+  .blog-item {
+    /* border: 1px solid black; */
+    width: 320px;
+  }
+
+  .blog-section h2 {
+    font-size: 36px;
+  }
+   .blog-item h3 {
+    font-size: 20px;
+    width: 280px;
+  }
+
+  .blog-desc {
+    font-size: 15px;
+    width: 260px;
+  }
+
+   /* ----------------Contact Us----------- */
+
+   .contact-us-container {
+    /* border: 1px solid black; */
+    width: 760px;
+  }
+
+  .contact-info {
+    /* border: 1px solid black; */
+    width: 750px;
+    gap: 50px;
+    margin-left: 10px;
+    padding-left: 20;
+  }
+
+  .contact-us-container h2 {
+    font-size: 36px;
+  }
+
+  .info-item p {
+    font-size: 16px;
+  }
+
+  .contact-form {
+    /* border: 1px solid black; */
+    width: 95%;
+    padding: 35px;
+  }
+
+  /* ----------Footer--------- */
+   .footer-container {
+    max-width: 766px;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 50px 60px;
+    text-align: left;
+  }
+
+  .footer {
+    padding: 110px 0;
+  }
+
+  .footer-newsletter form {
+    max-width: 100%;
+  }
+
+  .footer-newsletter input {
+    font-size: 14px;
+  }
+
+  .footer-newsletter button {
+    padding: 10px 22px;
+  }
+}
+
+/* =========================================================
+   MAX-WIDTH: 768px
+========================================================= */
+@media (max-width: 768px) {
+  /* -----------------------Slider----------------- */
+  .slide h2 {
+    font-size: 2rem;
+  }
+  .slide p {
+    font-size: 1.4rem;
+  }
+  .slider-container {
+    padding: 30px 10px;
+  }
+
+  /* -----------------------Features----------------- */
+  .features {
+    flex-direction: column;
+  }
+  .features-item {
+    /* border: 1px solid black; */
+    width: 540px;
+  }
+  .features-item img {
+    width: 130px;
+  }
+  .features-item p {
+    /* border: 1px solid black; */
+    width: 500px;
+  }
+
+  /* ----------------------Amortization------------- */
+  .amortization-image img {
+    width: 510px;
+  }
+  .amortization-content {
+    width: 510px;
+  }
+  .email-form {
+    width: 500px;
+  }
+
+  /* -------------------About-------------------/ */
+
+  .about-header p {
+    /* border: 1px solid black; */
+    width: 500px;
+  }
+
+  .about-image img {
+    width: 510px;
+  }
+
+  .about-text {
+    /* border: 1px solid black; */
+    width: 490px;
+  }
+
+  /* -----------------------Meet Team---------------- */
+  .team-header p {
+    width: 450px;
+  }
+
+  .team-grid {
+    /* border:  2px solid black; */
+    width: 520px;
+    margin: auto;
+    padding-top: 20px;
+  }
+
+  .team-member img {
+    width: 500px;
+  }
+
+  /* -------------------------Gallery------------------- */
+
+  .gallery-grid {
+    /* border: 2px solid black; */
+    width: 550px;
+  }
+
+  .gallery img {
+    width: 240px;
+  }
+
+  /* ----------------------Work Section----------- */
+
+  .work-container {
+    /* border: 1px solid black; */
+    width: 570px;
+  }
+
+  .work-header p {
+    /* border: 1px solid red; */
+    width: 440px;
+  }
+
+  .work-content {
+    /* border: 1px solid black; */
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+  }
+
+  .img_slider_parent {
+    /* border: 1px solid red; */
+    width: 515px;
+    height: 360px;
+  }
+
+  .slider_img_roll img {
+    height: 360px;
+  }
+
+  .but {
+    bottom: 45%;
+    left: 41%;
+  }
+
+  .text_slider_parent {
+    /* border: 1px solid peru; */
+    width: 515px;
+  }
+
+  .slidesimg h3 {
+    /* border: 1px solid green; */
+    padding-top: 15px;
+    width: 550px;
+    font-size: 2rem;
+  }
+
+  .slidesimg p {
+    /* border: 1px solid black; */
+    width: 510px;
+  }
+
+  /* ---------------------Our Services------------- */
+
+  .services-grid {
+    /* border: 1px solid rgb(255, 0, 0); */
+    width: 576px;
+    padding-left: 30px;
+  }
+
+  .services-box img {
+    /* border:  1px solid black; */
+    width: 140px;
+  }
+
+  .services-box p {
+    /* border: 1px solid black; */
+    width: 490px;
+  }
+
+  /* -----------------Happy Customers---------- */
+
+  .happy-customers-slider h2 {
+    font-size: 30px;
+  }
+
+  .happy-customers-slider-container {
+    /* border: 1px solid red; */
+    width: 574px;
+  }
+  .testimonial {
+    font-size: 16px;
+    padding: 0 0;
+  }
+
+  /* ---------------Pricing-------------- */
+
+  .pricing-card {
+    /* border: 1px solid black; */
+    width: 480px;
+  }
+  .plan-features {
+    /* border: 1px solid red; */
+    width: 330px;
+  }
+
+  /* -----------FAQs---------- */
+
+  .faq-header h2 {
+    font-size: 30px;
+  }
+  .faq-content {
+    /* border: 1px solid black; */
+    width: 520px;
+    margin: auto;
+  }
+
+  .faq-item p {
+    /* border: 1px solid black;88 */
+    font-size: 17px;
+    width: 500px;
+  }
+
+   /* ---------------No Name------------ */
+
+  .no-name-container {
+    /* border: 1px solid red; */
+    width: 574px;
+  }
+  
+  .bank-row {
+    /* border: 1px solid black; */
+    flex-direction: column;
+    gap: 60px;
+    padding-left: 0;
+    margin: auto;
+  }
+ 
+  .bank-image img {
+    width: 510px;
+    height: 360px;
+    z-index: 5;
+  }
+  .bank-item {
+    margin-top: 0px;
+    /* border: 1px solid red; */
+  }
+
+  .bank-text p {
+    width: 390px;
+  }
+
+  /* -----------------Blog----------- */
+  .blog-container {
+    /* border: 1px solid black; */
+    width: 560px;
+  }
+  
+  .blogs {
+    /* border: 1px solid black; */
+    gap: 10px;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 560px;
+    margin: auto;
+  }
+
+  .blog-item {
+    /* border: 1px solid black; */
+    width: 320px;
+  }
+
+  .blog-section h2 {
+    font-size: 36px;
+  }
+   .blog-item h3 {
+    font-size: 20px;
+    width: 280px;
+  }
+
+  .blog-desc {
+    font-size: 15px;
+    width: 260px;
+  }
+
+   /* ----------------Contact Us----------- */
+
+   .contact-us-container {
+    /* border: 1px solid black; */
+    width: 560px;
+  }
+
+  .contact-info {
+    /* border: 1px solid black; */
+    flex-direction: column;
+    align-items: center;
+    width: 550px;
+    gap: 50px;
+    margin-left: 10px;
+    padding-left: 20;
+  }
+
+  .contact-us-container h2 {
+    font-size: 36px;
+  }
+
+  .info-item p {
+    font-size: 16px;
+  }
+
+  .contact-form {
+    /* border: 1px solid black; */
+    width: 95%;
+    padding: 35px;
+  }
+
+}
+
+/* =========================================================
+   MAX-WIDTH: 576px
+========================================================= */
+@media (max-width: 576px) {
+  /* --------------------Navbar------------------- */
+  .navbar-container {
+    width: 95%;
+  }
+
+  /* ---------------------Slider----------------- */
+  .slide h2 {
+    font-size: 2rem;
+  }
+  .slide p {
+    font-size: 1rem;
+  }
+}
+
+@media (max-width: 576px) {
+  /* -------------------------Features------------------- */
+  .features {
+    flex-direction: column;
+    /* border: 1px solid black; */
+    width: 100%;
+  }
+  .features-item {
+    /* border: 1px solid black; */
+    width: 100%;
+  }
+  .features-item img {
+    width: 25%;
+  }
+  .features-item p {
+    /* border: 1px solid black; */
+    width: 90%;
+  }
+
+  /* ----------------------------Amortization---------------- */
+  .amortization {
+    /* border: 1px solid red; */
+    width: 100%;
+  }
+  .amortization-image img {
+    width: 95%;
+  }
+  .amortization-content {
+    /* border: 1px solid black; */
+    width: 95%;
+    align-self: center;
+  }
+  .email-form {
+    width: 95%;
+  }
+  .email-form input {
+    width: 80%;
+  }
+
+  /* ------------------------------About Us------------------- */
+  .about-header {
+    /* border: 1px solid black; */
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .about-header p {
+    /* border: 1px solid black; */
+    width: 90%;
+  }
+
+  .about-content {
+    /* border: 1px solid black; */
+    width: 100%;
+  }
+
+  .about-image img {
+    width: 95%;
+  }
+
+  .about-text {
+    /* border: 1px solid black; */
+    width: 90%;
+    margin-left: 15px;
+  }
+
+  /* -----------------------Meet Team---------------- */
+  .team-header {
+    /* border: 1px solid black; */
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .team-header p {
+    /* border: 1px solid black; */
+    width: 85%;
+  }
+
+  .team-grid {
+    /* border:  2px solid black; */
+    width: 100%;
+    margin: auto;
+    padding-top: 20px;
+  }
+
+  .team-member img {
+    padding-left: 10px;
+    width: 97%;
+  }
+
+  /* --------------------------------Gallery-------------- */
+
+  .gallery-container {
+    /* border: 1px solid rgb(254, 0, 0); */
+    width: 100%;
+  }
+
+  .gallery-header {
+    /* border: 2px solid rgb(0, 255, 34); */
+    width: 90%;
+  }
+
+  .gallery-buttons {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .gallery-grid {
+    /* border: 2px solid black; */
+    width: 100%;
+  }
+
+  .gallery img {
+    width: 95%;
+  }
+
+  /* ----------------------Work Section----------- */
+
+  .work-container {
+    /* border: 1px solid black; */
+    width: 100%;
+  }
+
+  .work-header {
+    /* border: 2px solid red; */
+    width: 100%;
+  }
+
+  .work-header p {
+    /* border: 1px solid red; */
+    width: 95%;
+    margin: auto;
+  }
+
+  .work-content {
+    /* border: 1px solid black; */
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    gap: 40px;
+  }
+
+  .img_slider_parent {
+    /* border: 1px solid red; */
+    width: 95%;
+    /* height: 360px; */
+  }
+
+  .slider_img_roll img {
+    width: 95%;
+    /* height: 360px; */
+  }
+
+  .but {
+    width: 20%;
+    bottom: 45%;
+    left: 41%;
+  }
+
+  .text_slider_parent {
+    /* border: 1px solid peru; */
+    width: 95%;
+  }
+
+  .slidesimg h3 {
+    /* border: 1px solid green; */
+    padding-top: 15px;
+    width: 100%;
+    font-size: 200%;
+  }
+
+  .slidesimg p {
+    /* border: 1px solid black; */
+    width: 100%;
+  }
+
+  /* ---------------------Our Services------------- */
+  .services-container h2 {
+    font-size: 200%;
+  }
+
+  .services-grid {
+    /* border: 1px solid rgb(255, 0, 0); */
+    width: 100%;
+    padding-left: 5px;
+  }
+
+  .services-box img {
+    /* border:  1px solid black; */
+    width: 30%;
+  }
+
+  .services-box p {
+    /* border: 1px solid black; */
+    width: 90%;
+  }
+
+  /* -----------------Happy Customers---------- */
+
+  .happy-customers-slider h2 {
+    font-size: 140%;
+  }
+
+  .happy-customers-slider-container {
+    /* border: 1px solid red; */
+    width: 100%;
+  }
+  .testimonial {
+    font-size: 16px;
+    padding: 0 0;
+  }
+
+  /* ---------------Pricing-------------- */
+
+  .pricing-header h2 {
+    font-size: 200%;
+  }
+  .pricing-cards {
+    /* border: 1px solid red; */
+    width: 100%;
+  }
+  .pricing-card {
+    /* border: 1px solid black; */
+    width: 95%;
+  }
+  .plan-features {
+    /* border: 1px solid red; */
+    width: 90%;
+  }
+
+  /* -----------FAQs---------- */
+
+  .faq-container {
+    /* border: 1px solid black; */
+    width: 100%;
+  }
+
+  .faq-header {
+    /* border: 1px solid black; */
+    width: 80%;
+  }
+  .faq-header h2 {
+    font-size: 200%;
+    margin-bottom: 50px;
+  }
+
+  .faq-content {
+    /* border: 1px solid black; */
+    width: 96%;
+    margin: auto;
+  }
+
+  .faq-item p {
+    /* border: 1px solid black; */
+    font-size: 17px;
+    width: 100%;
+  }
+
+  /* ---------------No Name------------ */
+
+  .no-name-container {
+    /* border: 1px solid red; */
+    width: 100%;
+  }
+  
+  .bank-row {
+    /* border: 1px solid black; */
+    width: 95%;
+  }
+  
+  .bank-image img {
+    height: 50%;
+    width: 100%;
+   
+  }
+ 
+  .bank-text p {
+    width: 90%;
+  }
+
+  /* -----------------Blog----------- */
+  .blog-container {
+    /* border: 1px solid black; */
+    width: 100%;
+  }
+  
+  .blogs {
+    /* border: 1px solid black; */
+    gap: 10px;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 99%;
+    margin: auto;
+  }
+
+  .blog-item {
+    /* border: 1px solid black; */
+    width: 95%;
+  }
+
+  .blog-section h2 {
+    font-size: 190%;
+  }
+   .blog-item h3 {
+    font-size: 20px;
+    width: 90%;
+  }
+
+  .blog-desc {
+    font-size: 15px;
+    width: 90%;
+  }
+
+  /* ----------------Contact Us----------- */
+
+   .contact-us-container {
+    /* border: 1px solid black; */
+    width: 100%;
+  }
+
+  .contact-info {
+    /* border: 1px solid black; */
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    gap: 50px;
+    margin-left: 0px;
+    padding-left: 0;
+  }
+
+  .contact-us-container h2 {
+    font-size: 36px;
+  }
+
+   .info-item p {
+    /* border: 1px solid black; */
+    width: 100%;
+    font-size: 15px;
+    line-height: 24px;
+  }
+
+  .contact-form {
+    /* border: 1px solid black; */
+     width: 95%;
+    padding: 25px;
+  }
+  
+  /* -----------Footer---------- */
+    .footer-container {
+    max-width: 100%;
+    padding: 0 20px;
+    grid-template-columns: 1fr;
+    gap: 35px;
+  }
+
+  .footer {
+    padding: 80px 0;
+  }
+
+  .footer h3 {
+    font-size: 16px;
+  }
+
+  .footer p,
+  .footer-links a {
+    font-size: 14px;
+  }
+
+  .footer-links ul {
+    text-align: center;
+  }
+
+  .social-icons {
+    justify-content: center;
+    gap: 20px;
+  }
+
+  .footer-newsletter form {
+    flex-direction: column;
+    border-radius: 20px;
+    overflow: visible;
+    border: none;
+    gap: 10px;
+  }
+
+  .footer-newsletter input {
+    width: 100%;
+    border: 1px solid #666;
+    border-radius: 20px;
+    padding: 10px 15px;
+  }
+
+  .footer-newsletter button {
+    width: 100%;
+    border-radius: 20px;
+    padding: 10px;
+  }
+
+  .footer-bottom {
+    font-size: 13px;
+    padding-top: 20px;
+  }
+
+}
